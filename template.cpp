@@ -6,10 +6,10 @@ LANG: C++
 #include <iostream>
 #include <fstream>
 using namespace std;
+ifstream fin("NAME.in");
+ofstream fout("NAME.out");
 int main(int argv,char*argc[])
 {
-    ifstream fin("NAME.in");
-    ofstream fout("NAME.out");
     fin.close();
     fout.close();
     return 0;
