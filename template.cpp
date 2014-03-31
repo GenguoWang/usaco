@@ -5,6 +5,7 @@ LANG: C++
 */
 #include <iostream>
 #include <fstream>
+#include <algorithm>
 using namespace std;
 ifstream fin("NAME.in");
 ofstream fout("NAME.out");
