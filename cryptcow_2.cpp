@@ -22,6 +22,7 @@ bool visited[MOD];
 vector<vector<int> > vis[MOD];
 struct StrList
 {  
+    StrList():next(NULL),pre(NULL),index(0){}
     StrList *next,*pre;
     int index;
 };
